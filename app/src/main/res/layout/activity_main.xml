@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbarAlwaysDrawHorizontalTrack="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/loadimage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="load_image" />
+
+            <Button
+                android:id="@+id/savetogallery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="save_to_gallery" />
+
+            <Button
+                android:id="@+id/loadframe"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="load frame" />
+
+
+            <Button
+                android:id="@+id/share"
+                android:layout_width="wrap_content"
+                android:text="Share"
+                android:layout_height="match_parent" />
+            <Button
+                android:id="@+id/rotate"
+                android:layout_width="wrap_content"
+                android:text="Rotate"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+
+    </HorizontalScrollView>
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:src="@drawable/kingfisher"
+        android:contentDescription="this"
+        android:layout_height="wrap_content" />
+<!-- commented recently on dec 2019    <ImageView-->
+<!--        android:id="@+id/frame_gone"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:visibility="gone"/>-->
+
+    <!--<ProgressBar-->
+    <!--android:id="@+id/progress_bar"-->
+    <!--style="@style/Widget.AppCompat.ProgressBar.Horizontal"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_margin="16dp"-->
+    <!--android:visibility="invisible"-->
+    <!--tools:visibility="visible" />-->
+
+<!--    <RelativeLayout android:layout_height="match_parent"-->
+<!--        android:layout_width="match_parent"-->
+
+<!--        android:orientation="horizontal"-->
+<!--        xmlns:android="http://schemas.android.com/apk/res/android">-->
+
+<!--        <android.support.design.widget.FloatingActionButton-->
+<!--            android:id="@+id/fab2"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentEnd="true"-->
+<!--            android:layout_gravity="start"-->
+<!--            android:layout_marginStart="16dp"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:layout_marginEnd="16dp"-->
+<!--            android:layout_marginBottom="16dp"-->
+<!--            android:src="@drawable/ic_share_black_24dp" />-->
+
+<!--        <android.support.design.widget.FloatingActionButton-->
+<!--            android:id="@+id/fab"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentStart="true"-->
+<!--            android:layout_gravity="end"-->
+<!--            android:layout_margin="16dp"-->
+<!--            android:src="@drawable/ic_share_black_24dp" />-->
+<!--    </RelativeLayout>-->
+
+
+
+
+
+
+
+</LinearLayout>
